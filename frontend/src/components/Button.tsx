@@ -1,4 +1,4 @@
-const Button = ({onClick, label}: {onClick: any, label: string }) => {
+const Button = ({ onClick, label }: { onClick?: any; label: string }) => {
   return (
     <button
       onClick={onClick}
